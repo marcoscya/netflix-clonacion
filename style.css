@@ -397,4 +397,47 @@ main {
     margin-bottom: 20px;
 }
 
+/*SECCION REGISTRO FORMULARIO*/
+.seccion-registro-formulario {
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 14;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+.formulario-seccion-registro form {
+    display: flex;
+    justify-content:center;
+    align-items: stretch;
+    margin-top: 10px;
+    gap: 10px;
+
+}
+
+.formulario-seccion-registro input {
+    width: 500px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background-color: rgba(31, 30, 30, 0.8);
+}
+
+.formulario-seccion-registro button {
+    width: 165px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 1.4rem;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 
