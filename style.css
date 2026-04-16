@@ -219,9 +219,10 @@ main {
 }
 
 .tarjeta-poster {
+    position: relative;
     width: 160px;
     height: 230px;
-    overflow: hidden;
+    overflow: visible;
     border-radius: 10px;
     flex: 0 0 150px;
 }
@@ -238,6 +239,19 @@ main {
     margin: 0 auto;
     position: relative;
     z-index: 14;
+}
+
+/*tendencias-numero-ranking*/
+.numero-ranking {
+    position: absolute;
+    bottom: 4px;
+    left: -20px;
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: #000;
+    -webkit-text-stroke: 2px #fff;
+    font-family: 'Arial Black', sans-serif;
+    user-select: none;
 }
 
 
