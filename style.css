@@ -440,4 +440,66 @@ main {
     cursor: pointer;
 }
 
+/*FOOTER*/
+
+/*enlaces*/
+.navegacion-footer {
+    color: white;
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 14;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.navegacion-footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-telefono-texto {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);   
+}
+
+.footer-enlaces ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px 0;
+    padding: 0;
+}
+
+/*footer-idioma*/
+.footer-idioma select{
+    margin-top: 70px;
+    font-size: 14px;
+    color: white;
+    padding: 6px 14px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgba(24, 23, 23, 0.9);
+    text-align: center;
+}
+
+.seleccion-idioma-espanol {
+    background-color: white;
+}
+
+.seleccion-idioma-ingles {
+    background-color: white;
+    color: #000;
+}
+
+.footer-ubicacion {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-derechos {
+    font-size: 13px;
+    margin-top: 20px;
+    color: rgb(161, 157, 157);
+}
 
